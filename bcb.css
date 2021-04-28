@@ -1,0 +1,175 @@
+
+
+body{
+  width:960px;
+  margin:0 auto;
+}
+.head1{
+	height:115px;
+	background: #7be0cc; 
+background: linear-gradient(to bottom,  #c5ece330 37%,#bdcadc70 100%);
+
+}
+.head1 .p {
+	font-size:3em;
+	font-family:tahoma;
+	color:#747d79;
+}
+.head1 .p .rr{
+ height:40px; 
+ width:100px;
+ font-size:25px;
+ padding:5px 10px;
+ font-family:tahoma;
+ text-decoration:none;
+ border-radius:5px;
+ border:1px solid #C7E8FF;
+ background-color:#F4FBF9;
+}
+
+.head1  ul{
+	padding-left:395px;
+	list-style-type:none;
+	
+}
+
+.head1 ul a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#0e0e0e;
+	
+}
+
+
+.head1 ul li{
+	float:left;
+	padding:0px 10px;
+	font-size:2em;
+	font-family:tahoma;
+	width:120px;
+	position:relative;
+	transition: ease;
+	
+	}
+	
+
+.head1 li ul{
+	padding:0;
+	position:absolute;
+	left:-9999999px;
+	border:2px solid grey;
+	border-radius:5px;
+    z-index:999;
+    background-color:#fff;
+}
+
+.menu li:hover ul{
+	left:0;
+  color:#fff;
+}
+.menu li ul li{
+	float:none;
+	font-size:30px;
+  color:red;
+}
+.head1 li ul li:hover{
+  
+	background-color:#E8E8FF;
+}
+
+
+
+legend{
+	font-size:4em;
+	font-family:arial;
+	font-weight:bold;
+}
+	
+.f1 fieldset{
+	font-size:25px;
+	font-family:tahoma;
+	line-height:60px;
+}
+/**National Team's Batsmans Performans. f1    hover start**/
+.f1 li{
+	position:relative;
+	list-style-type:none;
+	cursor:pointer;
+	color:grey;
+
+}
+
+.f1 li:hover{
+	font-size:40px;
+	color:black;
+
+}
+.f1 li ul{
+	position:absolute;
+	left:-9999999px;
+	border:5px solid #a5a5c5;
+	border-radius:15px;
+	background-color:#C2EBFF;
+	color:grey;
+	font-size:30px;
+	font-family:tahoma;
+	transparent:none;
+	
+}
+.f1 li:hover ul{
+	left:0;
+	margin-left:220px;
+	line-height:55px;
+	box-shadow:2px 10px 15px;
+	font-size:25px;
+	text-shadow:none;
+
+} 
+.f1 li ul li{
+	float:right;
+	
+}
+/****=====/**National Team's Batsmans Performans. f2    hover start**/
+
+.f2 fieldset{
+	font-size:25px;
+	font-family:tahoma;
+	line-height:60px;
+}
+
+.f2 li{
+	position:relative;
+	list-style-type:none;
+	cursor:pointer;
+	color:grey;
+
+}
+
+.f2 li:hover{
+	font-size:40px;
+	color:black;
+
+}
+.f2 li ul{
+	position:absolute;
+	left:-9999999px;
+	border:5px solid #a5a5c5;
+	border-radius:15px;
+	background-color:#C2EBFF;
+	color:grey;
+	font-size:30px;
+	font-family:tahoma;
+	
+}
+.f2 li:hover ul{
+	left:0;
+	margin-left:220px;
+	line-height:55px;
+	box-shadow:2px 10px 15px;
+	font-size:25px;
+	text-shadow:none;
+} 
+.f2 li ul li{
+	float:right;
+	
+}
